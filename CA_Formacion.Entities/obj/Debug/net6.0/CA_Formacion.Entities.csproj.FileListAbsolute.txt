@@ -1,0 +1,12 @@
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\bin\Debug\net6.0\CA_Formacion.Entities.deps.json
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\bin\Debug\net6.0\CA_Formacion.Entities.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\bin\Debug\net6.0\CA_Formacion.Entities.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\obj\Debug\net6.0\CA_Formacion.Entities.csproj.AssemblyReference.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\obj\Debug\net6.0\CA_Formacion.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\obj\Debug\net6.0\CA_Formacion.Entities.AssemblyInfoInputs.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\obj\Debug\net6.0\CA_Formacion.Entities.AssemblyInfo.cs
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\obj\Debug\net6.0\CA_Formacion.Entities.csproj.CoreCompileInputs.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\obj\Debug\net6.0\CA_Formacion.Entities.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\obj\Debug\net6.0\refint\CA_Formacion.Entities.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\obj\Debug\net6.0\CA_Formacion.Entities.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.Entities\obj\Debug\net6.0\ref\CA_Formacion.Entities.dll
