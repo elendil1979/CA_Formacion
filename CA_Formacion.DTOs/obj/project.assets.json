@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CA_Formacion.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CA_Formacion.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CA_Formacion.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CA_Formacion.Entities/1.0.0": {
+      "type": "project",
+      "path": "../CA_Formacion.Entities/CA_Formacion.Entities.csproj",
+      "msbuildProject": "../CA_Formacion.Entities/CA_Formacion.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CA_Formacion.Entities >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Victor\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj": {
+              "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

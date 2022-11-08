@@ -5,11 +5,24 @@
       "CA_Formacion.DTOs/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CA_Formacion.Entities": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CA_Formacion.DTOs.dll": {}
         },
         "runtime": {
           "bin/placeholder/CA_Formacion.DTOs.dll": {}
+        }
+      },
+      "CA_Formacion.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CA_Formacion.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CA_Formacion.Entities.dll": {}
         }
       }
     }
@@ -19,6 +32,11 @@
       "type": "project",
       "path": "../CA_Formacion.DTOs/CA_Formacion.DTOs.csproj",
       "msbuildProject": "../CA_Formacion.DTOs/CA_Formacion.DTOs.csproj"
+    },
+    "CA_Formacion.Entities/1.0.0": {
+      "type": "project",
+      "path": "../CA_Formacion.Entities/CA_Formacion.Entities.csproj",
+      "msbuildProject": "../CA_Formacion.Entities/CA_Formacion.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {

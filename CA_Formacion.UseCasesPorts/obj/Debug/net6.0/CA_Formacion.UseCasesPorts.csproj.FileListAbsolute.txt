@@ -1,0 +1,17 @@
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\bin\Debug\net6.0\CA_Formacion.UseCasesPorts.deps.json
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\bin\Debug\net6.0\CA_Formacion.UseCasesPorts.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\bin\Debug\net6.0\CA_Formacion.UseCasesPorts.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\bin\Debug\net6.0\CA_Formacion.DTOs.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\bin\Debug\net6.0\CA_Formacion.Entities.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\bin\Debug\net6.0\CA_Formacion.DTOs.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\bin\Debug\net6.0\CA_Formacion.Entities.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\obj\Debug\net6.0\CA_Formacion.UseCasesPorts.csproj.AssemblyReference.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\obj\Debug\net6.0\CA_Formacion.UseCasesPorts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\obj\Debug\net6.0\CA_Formacion.UseCasesPorts.AssemblyInfoInputs.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\obj\Debug\net6.0\CA_Formacion.UseCasesPorts.AssemblyInfo.cs
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\obj\Debug\net6.0\CA_Formacion.UseCasesPorts.csproj.CoreCompileInputs.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\obj\Debug\net6.0\CA_Formacion.UseCasesPorts.csproj.CopyComplete
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\obj\Debug\net6.0\CA_Formacion.UseCasesPorts.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\obj\Debug\net6.0\refint\CA_Formacion.UseCasesPorts.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\obj\Debug\net6.0\CA_Formacion.UseCasesPorts.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCasesPorts\obj\Debug\net6.0\ref\CA_Formacion.UseCasesPorts.dll

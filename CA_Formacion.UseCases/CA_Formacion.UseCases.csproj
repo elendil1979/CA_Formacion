@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CA_Formacion.Entities\CA_Formacion.Entities.csproj" />
     <ProjectReference Include="..\CA_Formacion.UseCasesPorts\CA_Formacion.UseCasesPorts.csproj" />
   </ItemGroup>

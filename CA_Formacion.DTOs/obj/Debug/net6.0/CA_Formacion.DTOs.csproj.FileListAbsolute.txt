@@ -1,0 +1,15 @@
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\bin\Debug\net6.0\CA_Formacion.DTOs.deps.json
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\bin\Debug\net6.0\CA_Formacion.DTOs.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\bin\Debug\net6.0\CA_Formacion.DTOs.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\bin\Debug\net6.0\CA_Formacion.Entities.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\bin\Debug\net6.0\CA_Formacion.Entities.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\obj\Debug\net6.0\CA_Formacion.DTOs.csproj.AssemblyReference.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\obj\Debug\net6.0\CA_Formacion.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\obj\Debug\net6.0\CA_Formacion.DTOs.AssemblyInfoInputs.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\obj\Debug\net6.0\CA_Formacion.DTOs.AssemblyInfo.cs
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\obj\Debug\net6.0\CA_Formacion.DTOs.csproj.CoreCompileInputs.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\obj\Debug\net6.0\CA_Formacion.DTOs.csproj.CopyComplete
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\obj\Debug\net6.0\CA_Formacion.DTOs.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\obj\Debug\net6.0\refint\CA_Formacion.DTOs.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\obj\Debug\net6.0\CA_Formacion.DTOs.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DTOs\obj\Debug\net6.0\ref\CA_Formacion.DTOs.dll

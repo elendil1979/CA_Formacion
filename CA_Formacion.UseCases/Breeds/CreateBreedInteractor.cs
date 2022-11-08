@@ -16,22 +16,15 @@ namespace CA_Formacion.UseCases.Breeds
             IBreedRepository repository) => (_outputPort, _repository) = (outputPort, repository);
 
 
-        public async Task Handle(CreateBreedDTO data)
+        public Task Handle(CreateBreedDTO data)
         {
             Breed breed = MapBreed(data);
             Breed breedCreated = _repository.Create(breed);
-            BreedDTO breedDTO = MapBreedDTO(breedCreated);
+            BreedDTO breedDTO = new BreedDTO(breedCreated);
             _outputPort.Handle(breedDTO);
+            return Task.CompletedTask;
         }
-
-        private BreedDTO MapBreedDTO(Breed breedCreated)
-        {
-            return new BreedDTO()
-            {
-                Id = breedCreated.Id
-            };
-        }
-
+        
         private Breed MapBreed(CreateBreedDTO data)
         {
             return new Breed()

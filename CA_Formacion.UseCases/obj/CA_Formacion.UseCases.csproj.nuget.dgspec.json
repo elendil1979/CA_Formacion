@@ -30,7 +30,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -227,6 +231,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
