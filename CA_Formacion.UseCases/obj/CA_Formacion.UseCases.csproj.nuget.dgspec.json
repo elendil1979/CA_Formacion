@@ -4,6 +4,64 @@
     "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCases\\CA_Formacion.UseCases.csproj": {}
   },
   "projects": {
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj",
+        "projectName": "CA_Formacion.DomainAbstractions",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DTOs\\CA_Formacion.DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -62,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -120,7 +178,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -182,7 +240,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -213,6 +271,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj"
+              },
               "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj": {
                 "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj"
               },
@@ -253,7 +314,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

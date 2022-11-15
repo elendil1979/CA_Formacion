@@ -1,0 +1,7 @@
+﻿Crear migraciones
+
+add-migration MigracionInicial -s CA_Formacion.Repository.EF -c CA_FormacionContext -p CA_Formacion.Repository.EF
+
+
+Aplicar migraciones
+update-database -p CA_Formacion.Repository.EF -s CA_Formacion.Repository.EF

@@ -1,0 +1,12 @@
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\bin\Debug\net6.0\CA_Formacion.DomainAbstractions.deps.json
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\bin\Debug\net6.0\CA_Formacion.DomainAbstractions.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\bin\Debug\net6.0\CA_Formacion.DomainAbstractions.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\obj\Debug\net6.0\CA_Formacion.DomainAbstractions.csproj.AssemblyReference.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\obj\Debug\net6.0\CA_Formacion.DomainAbstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\obj\Debug\net6.0\CA_Formacion.DomainAbstractions.AssemblyInfoInputs.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\obj\Debug\net6.0\CA_Formacion.DomainAbstractions.AssemblyInfo.cs
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\obj\Debug\net6.0\CA_Formacion.DomainAbstractions.csproj.CoreCompileInputs.cache
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\obj\Debug\net6.0\CA_Formacion.DomainAbstractions.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\obj\Debug\net6.0\refint\CA_Formacion.DomainAbstractions.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\obj\Debug\net6.0\CA_Formacion.DomainAbstractions.pdb
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.DomainAbstractions\obj\Debug\net6.0\ref\CA_Formacion.DomainAbstractions.dll

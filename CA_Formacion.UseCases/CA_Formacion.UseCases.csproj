@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CA_Formacion.DomainAbstractions\CA_Formacion.DomainAbstractions.csproj" />
     <ProjectReference Include="..\CA_Formacion.Entities\CA_Formacion.Entities.csproj" />
     <ProjectReference Include="..\CA_Formacion.UseCasesPorts\CA_Formacion.UseCasesPorts.csproj" />
   </ItemGroup>

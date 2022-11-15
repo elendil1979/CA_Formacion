@@ -17,3 +17,5 @@ C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCases\obj\Debug\net6
 C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCases\obj\Debug\net6.0\refint\CA_Formacion.UseCases.dll
 C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCases\obj\Debug\net6.0\CA_Formacion.UseCases.pdb
 C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCases\obj\Debug\net6.0\ref\CA_Formacion.UseCases.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCases\bin\Debug\net6.0\CA_Formacion.DomainAbstractions.dll
+C:\Devs\Formacion\CA_Educativo\CA_Formacion\CA_Formacion.UseCases\bin\Debug\net6.0\CA_Formacion.DomainAbstractions.pdb

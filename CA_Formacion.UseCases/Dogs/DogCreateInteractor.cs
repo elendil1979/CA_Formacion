@@ -1,4 +1,5 @@
 ﻿
+using CA_Formacion.DomainAbstractions;
 using CA_Formacion.DTOs.Breeds;
 using CA_Formacion.DTOs.Dogs;
 using CA_Formacion.Entities.Interfaces.Dogs;
@@ -11,16 +12,19 @@ namespace CA_Formacion.UseCases.Dogs
     {
         private readonly IMutationDogsRepository _repository;
         private readonly IDogCreateOutputPort _outputPort;
+        private readonly IUnitOfWork _unitOfWork;
 
         public DogCreateInteractor(
             IMutationDogsRepository repository,
-            IDogCreateOutputPort outputPort) =>
-            (_repository, _outputPort) = (repository, outputPort);
+            IDogCreateOutputPort outputPort,
+            IUnitOfWork unitOfWork) =>
+            (_repository, _outputPort, _unitOfWork) = (repository, outputPort, unitOfWork);
 
         public Task Handle(CreateDogDTO dogDto)
         {
             Dog dog = MapDog(dogDto);
             Dog dogCreated = _repository.Create(dog);
+            _unitOfWork.SaveChanges();
             DogDTO dogOutput = MapDogDTO(dogCreated);
             _outputPort.Handle(dogOutput);
             return Task.CompletedTask;
@@ -32,13 +36,17 @@ namespace CA_Formacion.UseCases.Dogs
             {
                 Id = dogCreated.Id,
                 Name = dogCreated.Name,
-                Breed = new BreedDTO(dogCreated.Breed)
+                //Breed = new BreedDTO(dogCreated.Breed)
             };
         }
 
         private Dog MapDog(CreateDogDTO dogDto)
         {
-            throw new NotImplementedException();
+            return new Dog()
+            {
+                Name = dogDto.Name,
+                BreedId = dogDto.BreedId,
+            };
         }
     }
 }

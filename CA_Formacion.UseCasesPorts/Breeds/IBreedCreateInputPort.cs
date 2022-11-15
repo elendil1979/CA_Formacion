@@ -5,6 +5,6 @@ namespace CA_Formacion.UseCasesPorts.Breeds
 {
     public interface IBreedCreateInputPort
     {
-        Task Handle(CreateBreedDTO data);
+        Task Handle(BreedCreateDTO data);
     }
 }

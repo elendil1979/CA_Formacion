@@ -7,6 +7,6 @@ namespace CA_Formacion.Entities.Interfaces.Dogs
     {
         public Dog Create(Dog dog);
         public Dog Update(Dog dog);
-        public bool Delete(Dog dog);
+        public Dog Delete(Dog dog);
     }
 }

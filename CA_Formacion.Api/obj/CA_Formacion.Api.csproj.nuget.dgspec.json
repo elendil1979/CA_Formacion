@@ -1,0 +1,689 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Api\\CA_Formacion.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Api\\CA_Formacion.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Api\\CA_Formacion.Api.csproj",
+        "projectName": "CA_Formacion.Api",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Api\\CA_Formacion.Api.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Controllers\\CA_Formacion.Controllers.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Controllers\\CA_Formacion.Controllers.csproj"
+              },
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\IoC\\IoC.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\IoC\\IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Controllers\\CA_Formacion.Controllers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Controllers\\CA_Formacion.Controllers.csproj",
+        "projectName": "CA_Formacion.Controllers",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Controllers\\CA_Formacion.Controllers.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Controllers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DTOs\\CA_Formacion.DTOs.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DTOs\\CA_Formacion.DTOs.csproj"
+              },
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Presenters\\CA_Formacion.Presenters.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Presenters\\CA_Formacion.Presenters.csproj"
+              },
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCasesPorts\\CA_Formacion.UseCasesPorts.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCasesPorts\\CA_Formacion.UseCasesPorts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj",
+        "projectName": "CA_Formacion.DomainAbstractions",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DTOs\\CA_Formacion.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DTOs\\CA_Formacion.DTOs.csproj",
+        "projectName": "CA_Formacion.DTOs",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DTOs\\CA_Formacion.DTOs.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj",
+        "projectName": "CA_Formacion.Entities",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Presenters\\CA_Formacion.Presenters.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Presenters\\CA_Formacion.Presenters.csproj",
+        "projectName": "CA_Formacion.Presenters",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Presenters\\CA_Formacion.Presenters.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Presenters\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCasesPorts\\CA_Formacion.UseCasesPorts.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCasesPorts\\CA_Formacion.UseCasesPorts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Repository.EF\\CA_Formacion.Repository.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Repository.EF\\CA_Formacion.Repository.EF.csproj",
+        "projectName": "CA_Formacion.Repository.EF",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Repository.EF\\CA_Formacion.Repository.EF.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Repository.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj"
+              },
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCasesPorts\\CA_Formacion.UseCasesPorts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCasesPorts\\CA_Formacion.UseCasesPorts.csproj",
+        "projectName": "CA_Formacion.UseCasesPorts",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCasesPorts\\CA_Formacion.UseCasesPorts.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCasesPorts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DTOs\\CA_Formacion.DTOs.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DTOs\\CA_Formacion.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCases\\CA_Formacion.UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCases\\CA_Formacion.UseCases.csproj",
+        "projectName": "CA_Formacion.UseCases",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCases\\CA_Formacion.UseCases.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.DomainAbstractions\\CA_Formacion.DomainAbstractions.csproj"
+              },
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Entities\\CA_Formacion.Entities.csproj"
+              },
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCasesPorts\\CA_Formacion.UseCasesPorts.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCasesPorts\\CA_Formacion.UseCasesPorts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\IoC\\IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\IoC\\IoC.csproj",
+        "projectName": "IoC",
+        "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\IoC\\IoC.csproj",
+        "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
+        "outputPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Presenters\\CA_Formacion.Presenters.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Presenters\\CA_Formacion.Presenters.csproj"
+              },
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Repository.EF\\CA_Formacion.Repository.EF.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.Repository.EF\\CA_Formacion.Repository.EF.csproj"
+              },
+              "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCases\\CA_Formacion.UseCases.csproj": {
+                "projectPath": "C:\\Devs\\Formacion\\CA_Educativo\\CA_Formacion\\CA_Formacion.UseCases\\CA_Formacion.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

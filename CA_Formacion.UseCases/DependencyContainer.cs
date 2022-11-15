@@ -11,8 +11,8 @@ namespace CA_Formacion.UseCases
     {
         public static IServiceCollection AddUsesCases(this IServiceCollection services)
         {
-            services.AddTransient<IDogCreateInputPort, MockDogCreateInteractor>();
-            services.AddTransient<IBreedCreateInputPort, CreateBreedInteractor>();
+            services.AddTransient<IDogCreateInputPort, DogCreateInteractor>();
+            services.AddTransient<IBreedCreateInputPort, BreedCreateInteractor>();
             return services;
         }
     }
